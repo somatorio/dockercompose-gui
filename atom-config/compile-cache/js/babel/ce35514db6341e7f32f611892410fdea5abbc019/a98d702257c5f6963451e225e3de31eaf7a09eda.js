@@ -1,0 +1,15 @@
+'use babel';
+
+Object.defineProperty(exports, '__esModule', {
+  value: true
+});
+exports['default'] = {
+  getProcessPlatform: function getProcessPlatform() {
+    return process.platform;
+  }
+};
+module.exports = exports['default'];
+
+//# sourceURL=/home/travis/build/atom/atom/out/app/node_modules/line-ending-selector/lib/helpers.js
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL3RyYXZpcy9idWlsZC9hdG9tL2F0b20vb3V0L2FwcC9ub2RlX21vZHVsZXMvbGluZS1lbmRpbmctc2VsZWN0b3IvbGliL2hlbHBlcnMuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsV0FBVyxDQUFBOztBQUVYLE1BQU0sQ0FBQyxjQUFjLENBQUMsT0FBTyxFQUFFLFlBQVksRUFBRTtBQUMzQyxPQUFLLEVBQUUsSUFBSTtDQUNaLENBQUMsQ0FBQztBQUNILE9BQU8sQ0FBQyxTQUFTLENBQUMsR0FISDtBQUNiLG9CQUFrQixFQUFDLFNBQUEsa0JBQUEsR0FBRztBQUNwQixXQUFPLE9BQU8sQ0FBQyxRQUFRLENBQUE7R0FDeEI7Q0FDRixDQUFBO0FBSUQsTUFBTSxDQUFDLE9BQU8sR0FBRyxPQUFPLENBQUMsU0FBUyxDQUFDLENBQUMiLCJmaWxlIjoiL2hvbWUvdHJhdmlzL2J1aWxkL2F0b20vYXRvbS9vdXQvYXBwL25vZGVfbW9kdWxlcy9saW5lLWVuZGluZy1zZWxlY3Rvci9saWIvaGVscGVycy5qcyIsInNvdXJjZXNDb250ZW50IjpbIid1c2UgYmFiZWwnXG5cbmV4cG9ydCBkZWZhdWx0IHtcbiAgZ2V0UHJvY2Vzc1BsYXRmb3JtICgpIHtcbiAgICByZXR1cm4gcHJvY2Vzcy5wbGF0Zm9ybVxuICB9XG59XG4iXX0=
+//# sourceURL=/usr/share/atom/resources/app.asar/node_modules/line-ending-selector/lib/helpers.js
