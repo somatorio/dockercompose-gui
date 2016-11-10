@@ -1,7 +1,7 @@
 version: '2'
 services:
   atom:
-    image: jamesnetherton/docker-atom-editor
+    image: jamesnetherton/docker-atom-editor:v1.11.2
     environment:
       DISPLAY:
     volumes:
@@ -10,6 +10,7 @@ services:
       - /dev/shm:/dev/shm
 
   mysql-workbench:
+    #unfortunately i couldn't find a image with other tags than latest, but that one serves the purpose of an example
     image: jdecool/mysql-workbench
     environment:
       DISPLAY:
