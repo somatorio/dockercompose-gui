@@ -1,1 +1,8 @@
+atom-config/*
+!atom-config/config.cson
+!atom-config/packages/
+
+mysqlwb-config/*
+!mysqlwb-config/connections.xml
+!mysqlwb-config/wb_options.xml
 
