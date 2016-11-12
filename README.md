@@ -19,7 +19,7 @@ But what isn't is the configuration of said tools, or the definition of them tog
 ## An approach with Docker
 Let's suppose you work at [Foobar](https://en.wikipedia.org/wiki/Foobar) Inc and have a problem to solve: When a newcomer arrive (or when a new config is need to be set or even change the version of a tool) the team loses too many time setting up (installing, configuring, etc) the toolset (text editor, db managing tool, etc - you got the idea) required to *real* work start.
 
-And your team already uses Docker as environment building tool.
+And your team already uses Docker as environment building tool. (or you have experience with Docker already)
 
 How about run the toolset with Docker too? You can set a Docker Compose file with the needed tools as images (with their setting already done), and the team members will (theorically) only need Docker, and Docker Compose will "do  the trick" for you ;). Need to update/fix something? Just rebuild the image (or make a new tag) and they will only need to run a `docker-compose pull`. Need to add a tool to the stack? update the Docker Compose file and the team just need to get the updated file and the tool will be in their stack.
 
