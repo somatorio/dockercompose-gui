@@ -6,7 +6,6 @@ services:
       DISPLAY:
     volumes:
       - /tmp/.X11-unix:/tmp/.X11-unix
-      - ./atom-config:/home/atom/.atom
       - /dev/shm:/dev/shm
 
   mysql-workbench:
@@ -15,5 +14,4 @@ services:
     environment:
       DISPLAY:
     volumes:
-      - ./mysqlwb-config:/root/.mysql/workbench
       - /tmp/.X11-unix:/tmp/.X11-unix
