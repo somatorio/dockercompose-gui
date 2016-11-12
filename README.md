@@ -10,7 +10,7 @@ It's basically a Docker Compose file with the complete toolset that will be used
 The toolset of a team should be defined in a programmable way, so it can be easily reproduced and ease the work of installing, updating, changing confguration, etc.
 
 ### Wait, isn't that "[Infrastructure as Code](infrastructure-as-code.com)"?
-This concept is pretty similar to Infrastructure as Code (actually we can pretty much say it was addapted from IoC), the difference is that what we define with code isn't actually "infrastructure", but the tools that the team will use (i can't think about a text editor or something like that as infrastructure).
+This concept is pretty similar to Infrastructure as Code (actually we can pretty much say it is an extension of IoC), the difference is that what we define with code isn't actually "infrastructure", but the tools that the team will use (i can't think about a text editor or something like that as infrastructure).
 
 ### Aren't the tools (and by consequence the toolset) already "code"?
 Oh, sure :)  
