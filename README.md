@@ -21,7 +21,7 @@ Let's suppose you work at [Foobar](https://en.wikipedia.org/wiki/Foobar) Inc and
 
 And your team already uses Docker as environment building tool.
 
-How about run the toolset with Docker too? You can set a Docker Compose file with the needed tools as images, with their setting already done and the team members will (theorically) only need Docker, and Docker Compose will "do  the trick" for you ;). Need to update/fix something? Just rebuild the image (or make a new tag) and they will only need to run a `docker-compose pull`. Need to add a tool to the stack? update the Docker Compose file and the team just need to get the updated file and the tool will be in their stack.
+How about run the toolset with Docker too? You can set a Docker Compose file with the needed tools as images (with their setting already done), and the team members will (theorically) only need Docker, and Docker Compose will "do  the trick" for you ;). Need to update/fix something? Just rebuild the image (or make a new tag) and they will only need to run a `docker-compose pull`. Need to add a tool to the stack? update the Docker Compose file and the team just need to get the updated file and the tool will be in their stack.
 
 You can even version control this, and the Docker Compose file can be used even as documentation of your team toolset!
 
