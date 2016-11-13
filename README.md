@@ -2,7 +2,7 @@
 
 
 ## What?
-This is a concept created by [@gomex](https://github.com/gomex) in a conversation about running GUI applications with [Docker](https://www.docker.com) at a [meetup](https://www.docker.com/community/meetup-groups) (actually i don't know if this is original, but i couldn't find it in my web searches... if it isn't, let us know so we can give the proper credits).
+This is a concept created by [@gomex](https://github.com/gomex) in a conversation about running GUI applications with [Docker](https://www.docker.com) at a [meetup](https://www.docker.com/community/meetup-groups) (actually i don't know if this is original, but i couldn't find it in my searches... if it isn't, let us know so we can give the proper credits).
 
 It's basically a Docker Compose file with the complete toolset that will be used by the team, so it's easier to maintain (fix, update, etc) and to fresh install them when a newcomer joins the team (it will be already set up).
 
@@ -10,7 +10,7 @@ It's basically a Docker Compose file with the complete toolset that will be used
 The toolset of a team should be defined in a programmable way, so it can be easily reproduced and ease the work of installing, updating, changing confguration, etc.
 
 ### Wait, isn't that "[Infrastructure as Code](infrastructure-as-code.com)"?
-This concept is pretty similar to Infrastructure as Code (actually we can pretty much say it is an extension of IoC), the difference is that what we define with code isn't actually "infrastructure", but the tools that the team will use (i can't think about a text editor or something like that as infrastructure).
+This concept is pretty similar to Infrastructure as Code (actually we can pretty much say it is an extension of IaC), the difference is that what we define with code isn't actually "infrastructure", but the tools that the team will use (i can't think about a text editor or something like that as infrastructure).
 
 ### Aren't the tools (and by consequence the toolset) already "code"?
 Oh, sure :)  
