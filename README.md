@@ -7,7 +7,7 @@ This is a concept created by [@gomex](https://github.com/gomex) in a conversatio
 It's basically a Docker Compose file with the complete toolset that will be used by the team, so it's easier to maintain (fix, update, etc) and to fresh install them when a newcomer joins the team (it will be already set up).
 
 ## The concept
-The toolset of a team should be defined in a programmable way, so it can be easily reproduced and ease the work of installing, updating, changing confguration, etc.
+The toolset of a team should be defined in a programmable way, so it can be easily reproduced and ease the work of installing, updating, changing configuration, etc.
 
 ### Wait, isn't that "[Infrastructure as Code](infrastructure-as-code.com)"?
 This concept is pretty similar to Infrastructure as Code (actually we can pretty much say it is an extension of IaC), the difference is that what we define with code isn't actually "infrastructure", but the tools that the team will use (i can't think about a text editor or something like that as infrastructure).
